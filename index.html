@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="mother">
+        <header class="header">
+            <img src="img/JavaScript_logo_PNG_(12).png" class="header-image" alt="logo do JavaScript">
+            <h1 class="header-title">Formate seu texto</h1>
+        </header>
+        <p class="test" id="idParagraph">Teste - Formatação de texto</p>
+        <main class="container">
+            <h2 class="subtitle">Use os recursos para formatar o texto acima</h2>
+            <label class="box-title text" for="idText">Seu texto</label>
+            <input class="box" type="text" id="idText" maxlength="30">
+            <label class="box-title" for="idFont">Fonte</label>
+            <select class="box" id="idFont">
+                <option>Arial</option>
+                <option>Broadway</option>
+                <option>Brush Script Mt</option>
+                <option>Calibri</option>
+                <option>Colona Mt</option>
+                <option>Cooper</option>
+                <option>Forte</option>
+                <option>Impact</option>
+                <option>Monotype Corsiva</option>
+            </select><br>
+            <label class="box-title" for="idSize">Tamanho</label>
+            <input class="box" id="idSize" type="number" min="8" max="40" step="4" value="16">
+            <label class="box-title" for="idColor">Cor do Texto</label>
+            <input class="box box-colors" type="color" id="idColor" value="#d4d4d4">
+            <label class="box-title" for="idColorBg">Cor do Fundo</label>
+            <input class="box box-colors" type="color" id="idColorBg" value="#d4d4d4">
+            <div class="button-space">
+                <button class="button" id="idTest">Testar</button>
+            </div>
+        </main>
+        <footer class="footer">Desenvolvido por Giovana Hatten</footer>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
